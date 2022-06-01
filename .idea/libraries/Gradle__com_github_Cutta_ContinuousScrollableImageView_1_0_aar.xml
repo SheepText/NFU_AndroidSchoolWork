@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Cutta:ContinuousScrollableImageView:1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/578271d930a751cbebbefe48e13a1e17/jetified-ContinuousScrollableImageView-1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/578271d930a751cbebbefe48e13a1e17/jetified-ContinuousScrollableImageView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/578271d930a751cbebbefe48e13a1e17/jetified-ContinuousScrollableImageView-1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Cutta/ContinuousScrollableImageView/1.0/804c7da3307fcc8edfd14d042db0f79ec1fab388/ContinuousScrollableImageView-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
