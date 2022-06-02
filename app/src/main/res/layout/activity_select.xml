@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity">
+
+    <ImageView
+        android:id="@+id/selectbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/selectbg"/>
+
+    <ImageView
+        android:id="@+id/levelselect"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/selectlevel"/>
+
+    <ImageView
+        android:id="@+id/classlogo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/classlogo" />
+
+
+    <Button
+        android:id="@+id/level1btn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/levelselect"
+        android:layout_toRightOf="@+id/levelselect"
+        android:background="@drawable/level1"
+        android:onClick="ChooesLevel1"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/level1select"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/levelselect"
+        android:layout_toRightOf="@+id/levelselect"
+        android:background="@drawable/level1select"
+        android:onClick="ChooesLevel1"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/levelbossbtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/levelselect"
+        android:layout_toRightOf="@+id/level1btn"
+        android:background="@drawable/levelboss"
+        android:onClick="ChooesLevelBoss"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/levelbossselect"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/levelselect"
+        android:layout_toRightOf="@+id/level1btn"
+        android:background="@drawable/levelbossselect"
+        android:onClick="ChooesLevelBoss"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/skillbutton_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/class2select"
+        android:layout_alignBottom="@+id/okbutton"
+        android:background="@drawable/class1"
+        android:onClick="ChooesClass1"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/class1select"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/class2select"
+        android:layout_alignBottom="@+id/okbutton"
+        android:background="@drawable/class1select"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/skillbutton_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="80dp"
+        android:layout_alignBottom="@+id/okbutton"
+        android:background="@drawable/class2"
+        android:onClick="ChooesClass2"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/class2select"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="80dp"
+        android:layout_alignBottom="@+id/okbutton"
+        android:background="@drawable/class2select"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/skillbutton_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/class2select"
+        android:layout_alignBottom="@+id/okbutton"
+        android:background="@drawable/class3"
+        android:onClick="ChooesClass3"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/class3select"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/class2select"
+        android:layout_alignBottom="@+id/okbutton"
+        android:background="@drawable/class3select"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/okbutton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-10dp"
+        app:layout_anchor="@+id/include"
+        android:background="@drawable/okbutton"
+        app:layout_anchorGravity="center"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
